@@ -1,0 +1,32 @@
+import turtle               
+wn = turtle.Screen()        
+triangle = turtle.Turtle() 
+for i in range (3):
+    triangle.forward(50)          
+    triangle.left(120)     
+square =turtle.Turtle()
+square.up()
+square.forward(70)
+square.down()
+for i in range (4):
+    square.forward(50)          
+    square.left(90)
+pen =turtle.Turtle()
+for i in range (5):
+    pen.right(72)
+    pen.forward(100)  
+hex =turtle.Turtle()
+for i in range(6):
+   hex.forward(100) 
+   hex.right(60) 
+hep = turtle.Turtle()
+for i in range(7):
+   hep.forward(100) 
+   hep.right(51.42)
+for i in range (6):
+    hex.forward(30)          
+    hex.left(60)  
+oct =turtle.Turtle()
+for i in range (8):
+    oct.forward(100)          
+    oct.left(45)  
